@@ -41,6 +41,7 @@ class HashTable {
     const address = this.hashMethod(key);
     const currentBucket = this.data[address];
     if (currentBucket) {
+      ``;
       for (let i = 0; i < currentBucket.length; i++) {
         if (currentBucket[i][0] === key) {
           let deleteCurrentBucket = currentBucket[i];
